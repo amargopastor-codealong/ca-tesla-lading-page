@@ -1,0 +1,94 @@
+:root {
+	--main-color: #4f5358;
+	--sec-color: white;
+	--main-size: 3em;
+}
+
+body {
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	color: var(--main-color);
+	font-size: var(--main-size);
+	padding-top: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+p {
+	margin: 10px 25px;
+}
+
+.header {
+	width: 100vw;
+	z-index: 2;
+	/* text-align: center; */
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bg {
+	text-align: center;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.buttons {
+	height: 100vh;
+	padding-bottom: 100px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	/* align-self: flex-end; */
+}
+
+.btn {
+	color: var(--sec-color);
+	background-color: var(--main-color);
+	font-size: 13px;
+	padding: 10px 35px;
+	margin: 10px 15px;
+	border-radius: 20px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.btn2 {
+	color: var(--main-color);
+	background-color: var(--sec-color);
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.model3 {
+	background-image: url(./images/model_3.jpg);
+}
+.modelS {
+	background-image: url(./images/model_S.jpg);
+}
+.modelY {
+	background-image: url(./images/model_Y.jpg);
+}
+.solar {
+	background-image: url(./images/solar_panels.jpg);
+}
